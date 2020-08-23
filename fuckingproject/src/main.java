@@ -57,11 +57,9 @@ public class main {
         case 6: //금요일
         	new Friday();
         	break;
-        case 7:
-        	new Friday();
-        	break;
         default: //토, 일
-        	System.out.println("오늘은 휴일입니다. 쉬세요!");
+        	//System.out.println("오늘은 휴일입니다. 쉬세요!");
+        	new Friday();
         }
     }
 }
