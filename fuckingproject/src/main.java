@@ -58,8 +58,8 @@ public class main {
         	new Friday();
         	break;
         default: //토, 일
-        	//System.out.println("오늘은 휴일입니다. 쉬세요!");
-        	new Friday();
+        	System.out.println("오늘은 휴일입니다. 쉬세요!");
+        	
         }
     }
 }
